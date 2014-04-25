@@ -5,7 +5,6 @@ menu:
 
 widgets: 
 - recent_posts
-- recent_comment
 - tagcloud 
 
 excerpt_link: Read More
@@ -20,6 +19,7 @@ addthis:
 
 fancybox: true
 
-google_analytics: UA-41590217-1
-rss: /atom.xml
+google_analytics: UA-50169885-1
+domain: hugofeng.info
+rss: 
 
