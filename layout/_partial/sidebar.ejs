@@ -1,8 +1,14 @@
 
 <div class="container">
 
+
+
 <% theme.widgets.forEach(function(widget){ %>
-	<div class="col-xs-12 col-sm-6">
+	<% if(widget == 'recent_posts') { %>
+		<div class="col-xs-12 col-sm-6">
+	<% } else { %>
+		<div class="col-xs-12 col-sm-3">
+	<% } %>
   	    <%- partial('../_widget/' + widget) %>
   	</div>
 <% }); %>
